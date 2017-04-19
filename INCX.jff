@@ -608,5 +608,20 @@
 		<Machine3/>&#13;
 		<Machine6/>&#13;
 		<Machine5/>&#13;
+		<note>&#13;
+			<text>Read Command IA, IB, IC, ID</text>&#13;
+			<x>148.0</x>&#13;
+			<y>111.0</y>&#13;
+		</note>&#13;
+		<note>&#13;
+			<text>Negative number support</text>&#13;
+			<x>609.0</x>&#13;
+			<y>175.0</y>&#13;
+		</note>&#13;
+		<note>&#13;
+			<text>If [_] or has positive, add 1</text>&#13;
+			<x>611.0</x>&#13;
+			<y>20.0</y>&#13;
+		</note>&#13;
 	</automaton>&#13;
 </structure>
