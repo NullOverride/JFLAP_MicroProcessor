@@ -197,20 +197,6 @@
 			<move>R</move>
 		</transition>
 		<transition>
-			<from>18</from>
-			<to>18</to>
-			<read>!H</read>
-			<write>~</write>
-			<move>R</move>
-		</transition>
-		<transition>
-			<from>15</from>
-			<to>15</to>
-			<read>!H</read>
-			<write>~</write>
-			<move>R</move>
-		</transition>
-		<transition>
 			<from>27</from>
 			<to>10</to>
 			<read>!1</read>
@@ -620,6 +606,20 @@
 			<from>25</from>
 			<to>25</to>
 			<read>!y</read>
+			<write>~</write>
+			<move>R</move>
+		</transition>
+		<transition>
+			<from>15</from>
+			<to>15</to>
+			<read>!H</read>
+			<write>~</write>
+			<move>R</move>
+		</transition>
+		<transition>
+			<from>18</from>
+			<to>18</to>
+			<read>!H</read>
 			<write>~</write>
 			<move>R</move>
 		</transition>
