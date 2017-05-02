@@ -1,0 +1,120 @@
+#H							0
+
+Increment Testing
+#IA#H 						1
+#LAV$-1#IA#H 				0
+#LAV$-11#IA#H 				-1
+#IA#IA#H 					11
+
+#IB#LAB#H 					1
+#LBV$-1#IB#LAB#H 			0
+#LBV$-11#IA#LAB#H 			-1
+#IB#IB#LAB#H 				11
+
+#IC#LAC#H 					1
+#LCV$-1#IC#LAC#H 			0
+#LCV$-11#IC#LAC#H			-1
+#IC#IC#LAC#H				11
+
+#ID#LAD#H					1
+#LDV$-1#ID#H 				0
+#LDV$-11#ID#H				-1
+#ID#ID#LAD#H 				11
+
+Decrement Testing
+#DA#H						-1
+#LAV$1#DA#H 				0
+#LAV$-1#DA#H				-11
+#DA#DA#H					-11
+
+#DB#LAB#H					-1
+#LBV$1#DB#LAB#H 			0
+#LBV$-11#DA#LAB#H			-11
+#DB#DB#LAB#H 				-11
+
+#DC#LAC#H					-1
+#LCV$1#DC#LAC#H				0
+#LCV$-1#DC#LAC#H 			-11
+#DC#DC#LAC#H				-11
+
+#DD#LAD#H					-1
+#LDV$1#DD#H					0
+#LDV$-1#DD#H				-11
+#DD#DD#LAD#H				-11
+
+Add Testing
+	Zero Testing
+#AB#H						0
+#AC#H						0
+#AD#H						0
+#AV$#H						0
+	Testing 1+
+#IB#AB#H					1
+#IC#AC#H					1
+#ID#AD#H					1
+#AV$1#H						1
+
+#IB#IB#AB#H					11
+#IC#IC#AC#H					11
+#ID#ID#AD#H					11
+#AV$11#H					11
+	Testing -1
+#DB#AB#H					-1
+#DC#AC#H					-1
+#DD#AD#H					-1
+#AV$-1#H					-1
+
+#DB#DB#AB#H					-11
+#DC#DC#AC#H					-11
+#DD#DD#AD#H					-11
+#AV$-11#H					-11
+	Testing +/-
+#AV$-11#AV$11#H				0
+#AV$-11#AV$111#H			1
+#AV$-111#AV$11#H			-1
+#AV$11#AV$-111#H			-1
+#AV$11#AV$-11#H				0
+#AV$11#AV$-111#H			-1
+#AV$11#AV$11#H				1111
+#AV$-11#AV$-11#H			-1111
+
+Sub Testing
+	Zero Testing
+#SB#H						0
+#SC#H						0
+#SD#H						0
+#SV$#H						0
+	Testing 1+
+#IB#SB#H					-1
+#IC#SC#H					-1
+#ID#SD#H					-1
+#SV$1#H						-1
+
+#IB#IB#SB#H					-11
+#IC#IC#SC#H					-11
+#ID#ID#SD#H					-11
+#SV$11#H					-11
+	Testing -1
+#DB#SB#H					1
+#DC#SC#H					1
+#DD#SD#H					1
+#SV$-1#H					1
+
+#DB#DB#SB#H					11
+#DC#DC#SC#H					11
+#DD#DD#SD#H					11
+#SV$-11#H					11
+	Testing +/-
+#SV$-11#SV$11#H				0
+#SV$-11#SV$111#H			-1
+#SV$-111#SV$11#H			1
+#SV$111#SV$-11#H			-1
+#SV$11#SV$-11#H				0
+#SV$11#SV$-111#H			1
+#SV$11#SV$11#H				-1111
+#SV$-11#SV$-11#H			1111
+
+
+
+
+
